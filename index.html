@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe AI - Play Against an Intelligent AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+  <h1>🎮 Tic Tac Toe AI</h1>
+
+  <div class="status" id="status">Your Turn (X)</div>
+
+  <div class="board" id="board"></div>
+
+  <div class="controls">
+    <button class="restart-btn" onclick="restartGame()">🔄 Restart</button>
+    <button class="difficulty" onclick="toggleDifficulty()">
+      AI: Impossible
+    </button>
+  </div>
+
+  <div class="stats">
+    <p>Wins: <span id="wins">0</span> | Losses: <span id="losses">0</span> | Draws: <span id="draws">0</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
